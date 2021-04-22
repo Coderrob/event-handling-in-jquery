@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand mr-auto mr-lg-0" href="#">
+        Event Handling in jQuery
+      </a>
+      <button
+        class="navbar-toggler p-0 border-0"
+        type="button"
+        data-toggle="offcanvas"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+
+    <main class="container">
+      <div class="row">
+        <div class="col-7">
+          <div class="my-3 p-3 bg-white rounded shadow-sm">
+            <h6 class="border-bottom border-gray pb-2 mb-0">
+              Mouse Button Events
+            </h6>
+            <div class="pt-3 text-center">
+              <button id="clickMe" type="button" class="btn btn-primary btn-lg">
+                Click Me
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="my-3 p-3 bg-white rounded shadow-sm offset-md-1 col-4">
+          <h6 class="border-bottom border-gray pb-2 mb-0">
+            Handled Events <a id="clear" href="#">Clear</a>
+          </h6>
+          <table class="table">
+            <tbody class="events"></tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+    <!-- jQuery JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Our JS -->
+    <script src="./script.js"></script>
+  </body>
+</html>

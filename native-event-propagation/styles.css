@@ -1,0 +1,37 @@
+body {
+  background-color: #e5e5e5;
+  font-family: GothamSSm, Helvetica, Arial, sans-serif;
+}
+
+body > .navbar {
+  background-color: #171717;
+  color: #e5e5e5;
+}
+
+body > .navbar > a {
+  color: #e5e5e5;
+}
+
+h6 > a {
+  float: right;
+}
+
+ul.reactions {
+  list-style: none;
+  display: inline-flex;
+  padding: 0;
+}
+
+ul.reactions li {
+  display: inline-block;
+}
+
+ul.reactions li:hover {
+  cursor: pointer;
+}
+
+ul.reactions i.bi {
+  display: inline-block;
+  font-size: 3.5rem;
+  margin: 1rem;
+}
