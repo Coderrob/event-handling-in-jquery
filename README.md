@@ -10,6 +10,12 @@ First, you’ll explore the jQuery Event object, and the cross-browser compatibi
 
 Finally, you’ll learn how to create and customize browser based event handling. When you’re finished with this course, you’ll have the skills and knowledge of jQuery Events needed to build truly interactive web applications.
 
+## Project Setup
+
+For the most part all the project files should be able to be opened and interacted with using just the index.html page. Both the jQuery and Bootstrap dependencies are loaded via CDN.
+
+The [Global Ajax Events](https://github.com/Coderrob/event-handling-in-jquery/tree/main/jquery-global-ajax-event-handlers) project, in order to make Ajax requests, you'll need to use Visual Studio Code's [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension. The `Live Server` will allow you to launch a local development server with live reloading of the index.html page. This avoids the Ajax request being blocked for having a `null` origin when fetching the json data.
+
 ## Project Files
 
 ### Understanding Event Driven Programming
